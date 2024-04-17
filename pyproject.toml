@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "desafio 4 - fastapi"
+version = "0.1.0"
+description = ""
+authors = ["MoaMariz <moacirbmariz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+alembic = "^1.13.1"
+pydantic = "^2.7.0"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+postgres = "^4.0"
+pydantic-settings = "^2.2.1"
+asyncpg = "^0.29.0"
+fastapi-pagination = "^0.12.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
